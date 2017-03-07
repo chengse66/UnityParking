@@ -90,6 +90,15 @@ public class TextureManager : MonoBehaviour {
         }
     }
 
+    /// <summary>
+    /// 获得材质地图
+    /// </summary>
+    public Dictionary<string, Texture2D> map {
+        get {
+            return map;
+        }
+    }
+
     IEnumerator Load_Texture() {
         TextureObject obj;
         while (runable)
